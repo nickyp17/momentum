@@ -1,28 +1,25 @@
-# Create T3 App
+# Momentum
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Momentum! A productivity web-app that helps university and college students with ADHD/ADD finish tasks on their to-do list. 
 
-## What's next? How do I make an app with this?
+As a student with ADHD, I understand how difficult it can be to complete even the simplest tasks. This can be quite irritating to myself as I need to get things out of the way in order to make sure my apartment is in order, and I need to stay on top of school assignments to ensure I am excelling in what I do. This is where Momentum can come in to help.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## What is it?
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Momentum is an app in which you create *tasks* that you can break down into subtasks, and Momentum will help fit it into your Google Calendar over a specified period of days to ensure that you can get it done in good time. This will help prevent procrastination and will let you get tasks off your to-do list to better enjoy your free time.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## How it works? 
 
-## Learn More
+After signing into your account, you'll be brought to a screen called *"My Tasks"*. This screen will provide you with a display of cards of all the tasks you've created. Here you can click to view a task, or you can create a new one.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+If you click a task you'll be able to see the subtasks of that task, mark subtasks as done further progressing your productivity bar for the task, and re-adjust subtasks in your calendar. 
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Why it was designed this way?
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+With ADHD, it can be difficult to figure out what needs to be done, how to do it, where to get started, or even just the actual action of starting a task can be troublesome. Momentum looks to give students a push in jumpstarting their productiity. 
 
-## How do I deploy this?
+The UI is designed to promote calmness to allow students to have peace of mind when thinking about what tasks they need to complete, while also utilizing accents to create a spark of action. 
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+# What are some next steps for Momentum?
+
+There are a lot of different areas in which Momentum can grow from. One feature that I would like to implement into Momentum is to utilize a precedence graph to implement an algorithm that will help recommend a priority task. This priority task will be displayed more prominently in the My Tasks screen and will also be pushed ahead in creating events in the users calendar. This precedence graph should take in the due date for the task, the amount of time it takes to complete, and possibly a ranked importance system that the user inputs. 
