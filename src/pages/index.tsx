@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <main className="max-w-3xl mx-auto my-12">
         <section className="relative py-4">
           <div className="container mx-auto">
-            <div className="rounded-xl shadow-xl flex divide-y bg-gradient-to-br from-blue-900 to-indigo-500">
+            <div className="rounded-xl shadow-xl flex bg-gradient-to-br from-blue-900 to-indigo-500">
               <div className="p-8 flex-grow">
                 <h1 className="text-3xl text-white font-bold">Momentum</h1>
               </div>
